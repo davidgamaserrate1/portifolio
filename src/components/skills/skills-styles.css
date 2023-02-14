@@ -1,0 +1,51 @@
+.divImg{
+    transform: rotate(90deg);
+    width: 50px;
+    margin: 10px;  
+}
+
+.skills-text{
+    display: flex;
+    
+}
+ 
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #3c859b;
+    margin: 10px;
+}
+.skill{    
+    /* border-radius: 10px; */
+    display: flex;
+    width: auto;
+    height: auto;     
+    background: #2b2a2a;          
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 10px;  */
+  
+}
+.skill-item{         
+    align-items: center;
+    justify-content: center;    
+    margin: 10px;
+    text-align: center; 
+}
+.skill-pic{    
+    width: 135px;
+}
+
+.skill-name{    
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.skill-button{
+    border-radius: 10px;
+    background: #3c859b;
+    color: #FFFFFF;
+    height: auto;     
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+}

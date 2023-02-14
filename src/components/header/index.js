@@ -1,10 +1,15 @@
 import React from "react";
+import './header-styles.css'
 
-const Header = ()=>{
-    return(
-    <div className="header"> 
-        Header here
-    </div>
+const Header = () =>{
+    return (
+        <>  
+        <div className="skill-button">
+             -
+        </div>
+       
+        </>
+
     )
 }
 

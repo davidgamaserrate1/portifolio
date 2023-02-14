@@ -1,0 +1,33 @@
+.header{
+    justify-content: center;
+    display: flex;
+    background: #000000;
+    width: auto;
+	height: auto;
+	 
+	color: #FFF;	
+}
+
+.heder-profile{
+    width: auto;
+    height: auto;     
+    background: #FFFFFF;     
+}
+
+.header-apresentation{
+    font-weight: bold;
+    margin: 50px;
+    margin-top: 120px; 
+    font-size: 80px;
+}
+
+.header-apresentation__high{
+    color: #3c859b;
+}
+
+.divRow{
+    position: absolute;
+    margin-top: 5px;
+    width: 100px;
+    height:10px
+}
