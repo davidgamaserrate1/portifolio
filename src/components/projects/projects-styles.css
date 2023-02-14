@@ -7,40 +7,11 @@
      
 } 
 
-.project-tools{
-    font-weight: bold;
-    margin: 5px;
-    text-align: center;
-}
 
-.project-name{
-    margin: 5px;
-}
 
-.project-desc{
-    padding: 7px;
-}
 
-.project-item{     
-    background-image: url('../../assets/projects/frutaria.png');
-    border-width: 25px yellow solid ;
-    background: red;
-    width: 350px;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-    border-width: 3px;
-    border-style: solid;    
-    border-color: aqua;
-    border-radius: 15px;
-    text-align: left
-}
 
-.project-imag{    
-    display: flex;
-    background: yellow;
-    display: flex;     
-    height: 300px;
-    width: 100%;
-}
 
+
+
+ 

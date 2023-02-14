@@ -1,0 +1,33 @@
+.project-item{    
+    border-width: 25px yellow solid ;
+    background: red;
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;    
+    border-color: aqua;
+    border-radius: 15px;
+    text-align: left
+}
+
+.project-imag{    
+     
+    height: 300px;
+    width: 100%;
+}
+
+.project-tools{
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+}
+.project-name{
+    margin: 5px;
+}
+
+
+.project-desc{
+    padding: 7px;
+}
