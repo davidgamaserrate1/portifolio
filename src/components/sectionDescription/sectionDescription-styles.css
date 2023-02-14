@@ -1,0 +1,20 @@
+.skills-text{
+    display: flex;   
+    
+}
+
+
+.div-img{
+    background-image: url('../../assets/div.png');
+    transform: rotate(90deg);
+    width: 50px;
+    margin: 10px;  
+}
+
+
+.div-skills{
+    font-size: 50px;
+    font-weight: bold;
+    color: #3c859b;
+    margin: 10px;
+}
