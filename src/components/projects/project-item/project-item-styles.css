@@ -1,21 +1,38 @@
 .project-item{    
-    border-width: 25px yellow solid ;
-    background: red;
-    width: 450px;
-    height: 450px;
+    background: #0C5EE0;
+    width: 350px;
+    height: auto;
     padding: 10px;
     margin: 10px;
     border-width: 3px;
     border-style: solid;    
-    border-color: aqua;
-    border-radius: 15px;
-    text-align: left
+    border-color: #F9F9F9;
+    border-radius: 15px;     
+    text-align: left;
+    margin-top: 50px;       
 }
 
-.project-imag{    
+.project-showmore{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 190px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;     
+    float: center;
      
+}
+
+.project-imag{       
+    transition: 500ms;      
     height: 300px;
     width: 100%;
+    border-radius: 15px;
+}
+.project-imag:hover{
+    background: black;        
+    cursor: pointer;
+    opacity: 0.3;
 }
 
 .project-tools{
@@ -25,9 +42,15 @@
 }
 .project-name{
     margin: 5px;
+    font-size: 20px;
+    background: #0A0A0A;
+    width: 200px;
+    padding:5px;
+    border-radius: 10px;
+    margin-left: 75px;
 }
 
 
 .project-desc{
-    padding: 7px;
+    margin: 10px;
 }

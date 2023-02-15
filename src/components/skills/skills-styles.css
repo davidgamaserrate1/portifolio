@@ -1,3 +1,6 @@
+.skills-items{
+          
+}
 .div-img{
     background-image: url('../../assets/div.png');
     transform: rotate(90deg);
@@ -6,56 +9,76 @@
 }
 
 .skills-text{
-    display: flex;   
+    display: flex;       
 }
  
-.div-skills{
+.div-skills{    
     font-size: 50px;
     font-weight: bold;
-    color: #3c859b;
-    margin: 10px;
-}
-.skill{    
-    /* border-radius: 10px; */
-    display: flex;
-    width: auto;
-    height: auto;     
-    background: #2b2a2a;          
-    flex-wrap: wrap;
-    justify-content: center;
-    /* margin: 10px;  */  
+    color: #0C5EE0;
+    margin: 10px;        
+
 }
 
+.skill{    
+    
+    /* border-radius: 10px; */
+    display: flex;
+    width: auto;     
+    height: auto;     
+    background: #0A0A0A;          
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+
 .skill-item{          
-    border-width: 3px;
+    border-width: 1px;
     border-style: solid;    
     border-image:  
     linear-gradient(
       to top, 
-      rgb(60, 133, 155), 
+      #0C5EE0, 
       rgba(0, 0, 0,  0)
-    ) 2 90%;
+    ) 1 ;
     align-items: center;
-    justify-content: center;    
+    
     margin: 5px;
-    padding: 5px;
+    padding: 5px;     
     text-align: center;     
+     
 }
 
 .skill-pic{    
-    width: 135px;
+    width: 135px; 
+    mix-blend-mode:     exclusion;
+ 
 }
 
 .skill-name{    
     font-size: 15px;
     color: #FFFFFF;
+    
 }
 .skill-button{
     border-radius: 10px;
-    background: #3c859b;
+    background: #0C5EE0;
     color: #FFFFFF;
     height: auto;     
-    width: 100px;
+    width: 220pxpx;
     text-align: center;
     margin: 10px;
+    padding: 10px;   
+}
+
+.vertical{
+      
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    color: #FFFFFF;
+    transform: rotate(90deg);     
+     
+    margin-left: -400px;
+     
+
 }

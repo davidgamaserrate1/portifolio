@@ -1,0 +1,15 @@
+.vertical-top-down{
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+     
+     
+     
+} 
+ 
+.appdiv{
+    background : #0C5EE0;
+}

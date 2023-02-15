@@ -1,7 +1,7 @@
 import React from "react";
 import './skills-styles.css'
 import SectionDescription from '../sectionDescription'
-
+import api from '../../assets/api.png' 
 const skillsList = [
     {
         "name" :"HTML",
@@ -37,23 +37,29 @@ const skillsList = [
     },
     {
         "name" :"Rest API", 
-        "src":"https://img.icons8.com/external-others-pike-picture/256/external-API-fintech-others-pike-picture-2.png"
+        "src":"/static/media/api.9dcdbc3c1f6eb07acfa0.png"
     },
 ]
-          
+         
+
+         console.log('api ' + api)
 const Skills = ()=>{
     return (
         <>            
-            <SectionDescription section={"Skills"}/>
-            <div className="skill">                
+            <SectionDescription  section={"Skills :"}/>
+            <div className="skill">                                
+
                 {skillsList.map((skill)=>( 
+                <div className="skills-items">
                 <div index={ skill.src} className="skill-item">                    
                     <img className="skill-pic" src={skill.src} />                    
                     <div className="skill-button"> 
                         <a className="skill-name" >{skill.name}</a>
                     </div>
                 </div>
+                </div>
                 ))}
+                 
            </div> 
         </>
     )

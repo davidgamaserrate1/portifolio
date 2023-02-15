@@ -14,8 +14,8 @@ const projects = [
         "src" :  '/static/media/universe.c5599bebb0af55ed2754.png',
         "tools" : "React / React Hooks / HTML / CSS / JS ",
         "name" : "Landing Page Universe",
-        "desc": " Landing page de um universo muito bonito Landing page de um universo muito bonito Landing page de um universo muito bonito Landing page de um universo muito bonito" 
-               + "Landing page de um universo muito bonito Landing page de um universo muito bonito Landing page de um universo muito bonito Landing page de um universo muito bonito",
+        "desc": " Landing page de um universo muito bonito Landing page de um universo muito bonito Landing page de um universo muito bonito Landing page de um universo muito bonito" ,
+               
         "link": "https://github.com/davidgamaserrate1/lading-page-universe"               
                
     },
@@ -46,18 +46,20 @@ const projects = [
 const Projects = () =>{
     
     return(
-        <>
+        <section className="projectsSection">
             <SectionDescription section={"Projects"}/>
             <div className="projects">
                 {projects.map((project)=>(     console.log( universeSrc ) ||     
                 <ProjectItem key={project.src}
                     src={  project.src } 
+                    tools={project.tools}
                     name={project.name}
                     desc ={project.desc}
+                    link={project.link}
                 />
                 ))}
            </div> 
-        </>
+        </section>
     )
 }
 // {props.src}/>

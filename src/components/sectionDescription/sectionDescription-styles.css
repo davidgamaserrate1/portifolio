@@ -1,9 +1,29 @@
 .skills-text{
     display: flex;   
-    
+    justify-content: left;
+
 }
 
 
+.div-img{
+    background-image: url('../../assets/div.png');
+    transform: rotate(90deg);     
+    height: 5px;
+    margin: 30px -20px;        
+}
+
+
+.div-skills{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;     
+}
+
+ .skills-text{     
+    margin: 0 150px 0 150px;       
+}
+
+/*
 .div-img{
     background-image: url('../../assets/div.png');
     transform: rotate(90deg);
@@ -15,6 +35,6 @@
 .div-skills{
     font-size: 50px;
     font-weight: bold;
-    color: #3c859b;
+    color: #FFFFFF;
     margin: 10px;
-}
+} */
