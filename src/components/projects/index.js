@@ -46,8 +46,9 @@ const projects = [
 const Projects = () =>{
     
     return(
+        <div className="projectSection">
+        <SectionDescription section={"Projects"}/>
         <section className="projectsSection">
-            <SectionDescription section={"Projects"}/>
             <div className="projects">
                 {projects.map((project)=>(     console.log( universeSrc ) ||     
                 <ProjectItem key={project.src}
@@ -60,6 +61,7 @@ const Projects = () =>{
                 ))}
            </div> 
         </section>
+        </div>
     )
 }
 // {props.src}/>

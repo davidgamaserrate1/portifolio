@@ -1,0 +1,10 @@
+.expSection{
+    margin: 50px;
+}
+.experiences {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}

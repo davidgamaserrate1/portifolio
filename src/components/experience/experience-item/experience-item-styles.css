@@ -1,0 +1,26 @@
+ 
+.expItem{
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    background: red;
+    color: #FFFFFF;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logoEmpresa{
+    display: flex;
+}
+.empresa{
+    display: flex;
+}
+.cargo{
+    display: flex;
+}
+.descricao{
+    display: flex;
+}

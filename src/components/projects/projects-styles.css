@@ -1,11 +1,12 @@
-.projectsSection{
-    margin-top: 150px;    
-}
+.projectSection{
+    margin: 50px;
+} 
 .projects{    
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
+    margin-left: 150px;    
 } 
 
 

@@ -14,7 +14,6 @@ const Apresentation = ()=>{
             Hi, Im David
             <p className="header-apresentation__high" >Serrate</p>
             <img className="divRow" src={divRow}/>
-            
         </p>
         <p className="header-description">
             Programador, cursando o ultimo semestre de Engenharia de Software na Universidade Federal de Mato Grosso do Sul, com conhecimentos em React, JavaScript, HTML , CSS, Bootstrap, Consumo e desenvolvimento de API 

@@ -1,3 +1,6 @@
+.skillsSection{
+    margin: 50px;
+}
 .skills-items{
           
 }
@@ -5,7 +8,7 @@
     background-image: url('../../assets/div.png');
     transform: rotate(90deg);
     width: 50px;
-    margin: 10px;  
+   
 }
 
 .skills-text{
@@ -28,7 +31,8 @@
     height: auto;     
     background: #0A0A0A;          
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 150px;
 }
  
 
@@ -76,8 +80,7 @@
     text-transform: uppercase;
     letter-spacing: 25px;
     color: #FFFFFF;
-    transform: rotate(90deg);     
-     
+    transform: rotate(90deg);   
     margin-left: -400px;
      
 

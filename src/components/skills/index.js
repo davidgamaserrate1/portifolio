@@ -45,7 +45,7 @@ const skillsList = [
          console.log('api ' + api)
 const Skills = ()=>{
     return (
-        <>            
+        <div className="skillsSection">            
             <SectionDescription  section={"Skills :"}/>
             <div className="skill">                                
 
@@ -61,7 +61,7 @@ const Skills = ()=>{
                 ))}
                  
            </div> 
-        </>
+        </div>
     )
 }
 export default Skills

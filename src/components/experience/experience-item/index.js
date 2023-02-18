@@ -2,13 +2,20 @@ import './experience-item-styles.css'
 
 const ExperienceItem = (props) =>{
     return(
-        <>
-        <div className="project-item">
-            <img className="project-imag" src={props.src}  />             
-            <div className="project-name"> {props.name}</div>
-            <p className="project-desc">  {props.desc} </p>
+        <div className='expItem'>
+           <img className='logoEmpresa' src={props.srcLogo}/>     
+            <div className='empresa'>
+                {props.empresa}
+            </div>
+            <div className='cargo'>
+                {props.cargo}
+            </div>
+            <div className='descricao'>
+            {props.descricao}
+            </div>
         </div>
-        </>
+       
+
     )
 }
 
