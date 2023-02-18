@@ -3,12 +3,12 @@ import './experience-item-styles.css'
 const ExperienceItem = (props) =>{
     return(
         <div className='expItem'>
-           <img className='logoEmpresa' src={props.srcLogo}/>     
+           <img className='logoEmpresa' src={props.srcLogo} alt="imgEmpresa"/>     
             <div className='empresa'>
-                {props.empresa}
+                {props.empresa} :
             </div>
             <div className='cargo'>
-                {props.cargo}
+                {props.cargo} 
             </div>
             <div className='descricao'>
             {props.descricao}

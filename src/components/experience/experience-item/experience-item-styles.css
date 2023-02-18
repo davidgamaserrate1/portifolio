@@ -1,26 +1,47 @@
  
 .expItem{
     display: flex;
-    flex-direction: column;     
-    justify-content: center;
+    flex-direction: column;    
     background: red;
     color: #FFFFFF;
-    height: 250px;
-    width: 250px;
-    margin: 15px;
+    height: 230px;
+    width: 350px;
+    margin: 25px;
     padding: 10px;
     border-radius: 10px;
+
 }
 
 .logoEmpresa{
-    display: flex;
+    width: 170px;
+    height: 60px;
+    margin-top:  -80px;
+    margin-left: -30px;
+    background: #0C5EE0;
+    padding: 15px;          
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;    
 }
+
 .empresa{
-    display: flex;
+    display: flex;     
+    padding: 5px;
+    margin: 15px;
+    width: 160px ;    
+    margin-top: -85px; 
+    margin-left: 175px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
 }
 .cargo{
     display: flex;
+    margin-top: -50px;
+    margin-left: 200px;
+     
 }
 .descricao{
     display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
 }

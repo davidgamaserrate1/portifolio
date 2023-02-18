@@ -7,4 +7,5 @@
     align-items: left;
     flex-wrap: wrap;
     margin-left: 150px;
+    gap: 50px;
 }
