@@ -1,12 +1,14 @@
+.experience-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .experiences {
     margin-top: 30px;
     display: flex;
-     
     flex-wrap: wrap;
-    /* margin-left: 150px; */
-     
 }
+
 .experienceUnion{
     display: flex;
     justify-content: center; 
@@ -16,18 +18,11 @@
     margin: 20px;
     display: flex;
     margin-bottom: 120px;
-     
 }
 
-.expSection{
-    margin-top: 80px;
-    margin-left: -210px;
-    display: flex;
-    justify-content: center;
+#expSection{
+    margin-top: 80px;     
+    display: flex;     
 }
 
-@media screen and (min-width: 300px) {
-    .expSection{
-   
-    }
-   }
+ 

@@ -28,9 +28,9 @@ const experiences = [
  
 const Experience = () =>{
     return(
-        <>
-        <SectionDescription   section={"Experience:"}/>
-        <div className="expSection">
+        <section id="experience-section">
+        <SectionDescription   section={"Experiência:"}/>
+        <div id="expSection">
             
             <div className="experiences">
                 { experiences && experiences.map((exp)=>(
@@ -46,7 +46,7 @@ const Experience = () =>{
        
         
  
-        </>
+        </section>
            )
 }
 

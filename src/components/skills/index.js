@@ -45,6 +45,7 @@ const skillsList = [
          console.log('api ' + api)
 const Skills = ()=>{
     return (
+       <section id="skills-section">
         <div className="skills-container">
         <SectionDescription  section={"Skills :"}/>      
             <div className="skill"> 
@@ -61,6 +62,7 @@ const Skills = ()=>{
                  
            </div> 
         </div>
+       </section>
       
         
     )

@@ -1,5 +1,5 @@
 .skills-container{
-    margin: 150px 0 150px;    
+    margin: 150px 0 150px 0;    
 }
 
 .skillsUnion{
@@ -28,7 +28,7 @@
     margin: 10px;        
 }
 
-.skill{    
+.skill{      
     display: flex;
     width: auto;     
     height: auto;     
@@ -55,14 +55,13 @@
 .skill-pic{    
     width: 135px; 
     mix-blend-mode:     exclusion;
- 
 }
 
 .skill-name{    
     font-size: 15px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;    
 }
+
 .skill-button{
     border-radius: 10px;
     background: #0C5EE0;
@@ -74,13 +73,4 @@
     padding: 10px;   
 }
 
-.vertical{
-      
-    text-transform: uppercase;
-    letter-spacing: 25px;
-    color: #FFFFFF;
-    transform: rotate(90deg);   
-    margin-left: -400px;
-     
-
-}
+ 

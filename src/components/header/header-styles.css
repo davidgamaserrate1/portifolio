@@ -1,4 +1,5 @@
 .headerpage{
+    
     font-weight: bold;
     color: #FFFFFF;
     display: flex;    
@@ -12,6 +13,7 @@
 .header-name{
     margin: 15px 200px 15px ;
     font-size: 20px;
+    color: #FFFFFF;
 }
 
 .div-name{     
@@ -23,13 +25,32 @@
 }
 .header-wellcome{
     margin: 15px 200px 15px -150px;
+    color: #ffffff;
     font-size: 20px;
 }
 
-.logo{
-    /* mix-blend-mode: color-dodge; */
-    /* mix-blend-mode: difference; */
+.logo{    
     mix-blend-mode: screen;
-    justify-content: right;
-     
+    justify-content: right;     
+    position: absolute;
+    left: 140px;
+    top: 1px;
+    width: 50px;
+    height: 50px;
 }
+
+.section-page{
+    color: #ffffff;
+    display: flex;
+    gap: 50px;
+    right: 250px;
+    top: 15px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.section-page__name:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+a{color: #ffffff;}

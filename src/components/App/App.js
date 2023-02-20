@@ -8,6 +8,7 @@ import VerticalDesc from "../verticalDesc/index.js";
 import Experience from "../experience/index.js";
 import Educations from "../education/index.js";
 import SectionDescription from "../sectionDescription/index.js";
+import Contact from '../contact';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         </div>      
         <Skills/>
         <Projects/>
-        
+        <Contact/>
       </div> 
     </>
   );

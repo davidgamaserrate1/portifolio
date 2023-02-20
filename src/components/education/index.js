@@ -38,7 +38,7 @@ const formation =[
 const Educations = ()=>{
     return(
         <>
-        <SectionDescription section={"Education:"}/>              
+        <SectionDescription section={"Formação:"}/>              
         <div className='section-education'>
             <div className="description-type left">Nome</div>
             <div className="description-type right">Instituição</div>             
