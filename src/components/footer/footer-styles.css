@@ -1,0 +1,53 @@
+ .footer-div{
+    display: flex;
+    background: linear-gradient(90deg, rgba(10,10,10,1)  0%, rgba(12,94,224,1) 59%);  
+    position: relative;
+    color:#ffffff;
+    height: 50px; 
+    font-weight: bold;
+    
+}
+
+ 
+
+.footer-name{
+    color: #FFFFFF;
+    padding: 10px 0 10px 10px;
+    font-size: 20px;
+    margin-left: 145px;
+    
+}
+
+.div-footer{
+    transform: rotate(90deg);     
+    width: 30px;
+     margin-top: 19px;
+    height: 5px;
+}
+
+.header-thanks{
+    color: #FFFFFF;
+    padding: 10px 0 10px 0; 
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+
+.logo-footer{    
+    
+    mix-blend-mode: screen;
+    justify-content: right;     
+    
+    position: absolute;
+    
+    width: 50px;
+    height: auto;
+    left: 100px;
+
+     
+     
+  
+    
+}
+
+ 

@@ -44,8 +44,6 @@ const Contact = () =>{
                         link={contact.link}
                     />
                 ))}
-               
-        {/* <a HREF="mailto:david.gama@ufms.br?Subject=%20&Body=%20">linkText</a> */}
             </div>
         </section>
     )

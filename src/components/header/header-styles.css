@@ -1,5 +1,4 @@
 .headerpage{
-    
     font-weight: bold;
     color: #FFFFFF;
     display: flex;    
@@ -53,4 +52,7 @@
     color: #ffffff;
     text-decoration: underline;
 }
-a{color: #ffffff;}
+
+a{
+    color: #ffffff;
+}
