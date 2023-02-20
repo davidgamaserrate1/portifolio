@@ -12,7 +12,7 @@ const experiences = [
     {
         "empresa":"Grupo Card",
         "cargo":"Programador Jr",
-        "descricao":"Responsavel pelas integrações de sistemas de vendas e"
+        "descricao":"Responsavel pelas integrações de sistemas de vendas e "
                 +"ERP, utilizando JavaScript, PL/SQL.",
         "srcLogo":'/static/media/grupoc_card.649469a668be9775ea49.png' 
 
@@ -20,30 +20,34 @@ const experiences = [
     {
         "empresa":"IntegraTI",
         "cargo":"Estagiario",
-        "descricao":"sim sim simsim sim simsim sim simsim sim simsim sim simsim sim sim",
+        "descricao":"Análise e manutenção de sistemas, utilizando JavaScript, através da ferramenta BPMN Camunda Modeler. Automação de alertas de monitoramento via E-mail,"
+            + "afim de precipitar problemas de integrações e ou movimentações bancárias no sistema de ERP.",
         "srcLogo":"https://integrati.solutions/img/logo/logo.png"
     },
 ]
-
-console.log('logoIntegraTI ' + logoIntegraTI) 
- 
  
 const Experience = () =>{
     return(
+        <>
+        <SectionDescription   section={"Experience:"}/>
         <div className="expSection">
-        <SectionDescription   section={"Expercience:"}/>
-        <div className="experiences">
-            { experiences && experiences.map((exp)=>(
-                <ExperienceItem 
-                    empresa={exp.empresa}
-                    cargo={exp.cargo}
-                    descricao={exp.descricao}
-                    srcLogo= {exp.srcLogo}
-                />
-            ))}
+            
+            <div className="experiences">
+                { experiences && experiences.map((exp)=>(
+                    <ExperienceItem 
+                        empresa={exp.empresa}
+                        cargo={exp.cargo}
+                        descricao={exp.descricao}
+                        srcLogo= {exp.srcLogo}
+                    />
+                ))}
+            </div>
         </div>
-        </div>
-    )
+       
+        
+ 
+        </>
+           )
 }
 
 export default Experience

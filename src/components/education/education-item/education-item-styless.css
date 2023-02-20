@@ -1,0 +1,42 @@
+.course-div{
+    display: flex;
+}
+
+.graduacao-div{
+    display: flex;
+}
+
+.education-item{     
+    display: flex; 
+}
+
+.education-course{
+    margin-top: 30px;    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: auto;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.education-institution{
+    margin-top: 30px;
+    margin-left: 20px;      
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;    
+    height: 20px;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.graduacao{
+    color: #0A0A0A;   
+    background-color: #ffffff;
+}
+
+.course{
+    color: #ffffff;   
+    background-color: #0C5EE0;
+}

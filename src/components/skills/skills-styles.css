@@ -1,9 +1,15 @@
+.skills-container{
+    margin: 150px 0 150px;    
+}
+
+.skillsUnion{
+    display: flex;
+    justify-content: center;
+}
 .skillsSection{
     margin: 50px;
 }
-.skills-items{
-          
-}
+ 
 .div-img{
     background-image: url('../../assets/div.png');
     transform: rotate(90deg);
@@ -20,21 +26,16 @@
     font-weight: bold;
     color: #0C5EE0;
     margin: 10px;        
-
 }
 
 .skill{    
-    
-    /* border-radius: 10px; */
     display: flex;
     width: auto;     
     height: auto;     
     background: #0A0A0A;          
     flex-wrap: wrap;
-    justify-content: left;
-    margin-left: 150px;
+    justify-content: center;
 }
- 
 
 .skill-item{          
     border-width: 1px;
@@ -44,13 +45,11 @@
       to top, 
       #0C5EE0, 
       rgba(0, 0, 0,  0)
-    ) 1 ;
-    align-items: center;
-    
+    ) 1  ;
+    align-items: center;    
     margin: 5px;
     padding: 5px;     
-    text-align: center;     
-     
+    text-align: center;          
 }
 
 .skill-pic{    

@@ -1,19 +1,15 @@
 .projectSection{
     margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 } 
 .projects{    
-    color: #FFFFFF;
     display: flex;
-    justify-content: left;
+    color: #FFFFFF;
+    display: flex;    
     flex-wrap: wrap;
-    margin-left: 150px;    
+    justify-content: center;
 } 
-
-
-
-
-
-
-
 
  

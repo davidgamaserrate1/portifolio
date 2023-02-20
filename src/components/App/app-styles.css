@@ -5,11 +5,22 @@
     padding-left: 10px;
     color: #FFFFFF;
     transform: rotate(90deg);
-     
-     
-     
 } 
  
 .appdiv{
     background : #0C5EE0;
+}
+
+#appClass{
+    justify-content: center;
+}
+
+.skills-exp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ 
+.cointainer{
+    padding: 150px;
 }

@@ -1,0 +1,37 @@
+.legend{
+    color: #ffffff;
+    display: inline;
+}
+
+.legend-text{
+    margin: 20px 0 20px;
+}
+
+.legend{
+    display: flex;
+    
+}
+
+.legend-course{
+    height: 20px;
+    margin-right: 20px; 
+    margin-top: 20px;    
+    margin-left:10px ;
+}
+
+.legend-course-text{
+    margin-left: 40px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+.legend-institution{
+    height: 20px;
+    gap: 10px; 
+    margin-top: 20px;
+}
+
+.legend-institution-text{
+    margin-left: 35px;
+    margin-top:  -20px;
+}

@@ -14,7 +14,7 @@ const projects = [
         "src" :  '/static/media/universe.c5599bebb0af55ed2754.png',
         "tools" : "React / React Hooks / HTML / CSS / JS ",
         "name" : "Landing Page Universe",
-        "desc": " Landing page de um universo muito bonito Landing page de um universo muito bonito Landing page de um universo muito bonito Landing page de um universo muito bonito" ,
+        "desc": "Landing page Space, onde exibe a contagem regressiva para o proximo eclipse e local para a melhor visualização." ,
                
         "link": "https://github.com/davidgamaserrate1/lading-page-universe"               
                
@@ -36,7 +36,7 @@ const projects = [
     },
     { 
         "src" : '/static/media/git.971c0f28c1794d33a415.png',
-        "tools" : "HTML / CSS / JS ",
+        "tools" : "HTML / CSS / JS / Rest API ",
         "name" : "Search user Github  ",
         "desc": "Aplicação onde é possível buscar usuários do github e seus respectivos repositórios, além da quantidade de seguidores e de pessoas que segue. Consumindo a API do Github."
         ,"link":"https://crud-react-rosy-iota.vercel.app/clientes/"                      
@@ -46,9 +46,8 @@ const projects = [
 const Projects = () =>{
     
     return(
-        <div className="projectSection">
-        <SectionDescription section={"Projects"}/>
-        <section className="projectsSection">
+        <>
+        <SectionDescription section={"Projects :"}/>  
             <div className="projects">
                 {projects.map((project)=>(     console.log( universeSrc ) ||     
                 <ProjectItem key={project.src}
@@ -60,13 +59,9 @@ const Projects = () =>{
                 />
                 ))}
            </div> 
-        </section>
-        </div>
+        </>        
     )
 }
-// {props.src}/>
-//             <div className="project-tools">  {props.tools}</div>
-//             <div className="project-name"> {props.name}</div>
-//             <p className="project-desc">  {props.desc} 
+
 
 export default Projects

@@ -22,15 +22,14 @@ const ProjectItem = (props) =>{
             <a href={props.link}> <img className="project-imag" src={props.src}  />  </a>
             </div>
           {isHovering && (
-          <a href={props.link} className="project-showmore">
-            Ver mais          2
+          <a target="_blank" rel="noopener noreferrer"  href={props.link} className="project-showmore">
+            Ver mais           
           </a>
            )}
-         
-            <div className="project-tools">  {props.tools}</div>
+            <div className="project-tools"> Ferramentas:  {props.tools}</div>
             <div className="project-name"> {props.name}</div>
             <p className="project-desc">  {props.desc} </p>
-          
+            
         
         </div>
     )

@@ -1,0 +1,34 @@
+
+.education{
+    display: flex;
+    width: 250px;
+    height: 300px; 
+}
+ 
+
+.description-type{
+    display: flex;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+    position: absolute;
+     
+}
+
+.right{
+    float: right;     
+    position: absolute;     
+    margin-left: 130px;
+     
+}
+
+.section-education{
+    justify-content: left;
+    margin-top: 100px;
+    margin-left: -210px; 
+ 
+}
+

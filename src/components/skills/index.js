@@ -45,10 +45,9 @@ const skillsList = [
          console.log('api ' + api)
 const Skills = ()=>{
     return (
-        <div className="skillsSection">            
-            <SectionDescription  section={"Skills :"}/>
-            <div className="skill">                                
-
+        <div className="skills-container">
+        <SectionDescription  section={"Skills :"}/>      
+            <div className="skill"> 
                 {skillsList.map((skill)=>( 
                 <div className="skills-items">
                 <div index={ skill.src} className="skill-item">                    
@@ -62,6 +61,8 @@ const Skills = ()=>{
                  
            </div> 
         </div>
+      
+        
     )
 }
 export default Skills
