@@ -1,10 +1,8 @@
 import React from "react";
 import SectionDescription from "../sectionDescription";
 import ContactItem from "./contact-item";
-
 import './contact-styles.css'
 
-import instagram from '../../assets/contact/instagram.png'
 const contactsMethods = [
     {  
       'name':'whatsapp',
@@ -34,10 +32,10 @@ const contactsMethods = [
 const Contact = () =>{
     return(
         <section id="contact-section">        
-        <SectionDescription section={"Contato:"}/>              
+            <SectionDescription section={"Contato:"}/>              
             <div className="contact">
                 {contactsMethods.map((contact)=>(
-                    <ContactItem 
+                    <ContactItem className="items"
                         name={contact.name}
                         image ={contact.image}
                         valueContact={contact.valueContact}

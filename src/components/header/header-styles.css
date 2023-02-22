@@ -1,12 +1,18 @@
+.header-david{
+    display: flex;
+     
+}
 .headerpage{
     font-weight: bold;
     color: #FFFFFF;
     display: flex;    
     background: red;
-    width: 100%;
-    height: 50px;   
+    flex-wrap: wrap;
+    height: auto;   
     background: linear-gradient(90deg, rgba(10,10,10,1)  0%, rgba(12,94,224,1) 59%);  
+    flex-direction:column ;
     /* position: fixed; */
+    width: 100%; 
 }
 
 .header-name{
@@ -26,6 +32,7 @@
     margin: 15px 200px 15px -150px;
     color: #ffffff;
     font-size: 20px;
+   
 }
 
 .logo{    
@@ -41,11 +48,13 @@
 .section-page{
     color: #ffffff;
     display: flex;
-    gap: 50px;
-    right: 250px;
-    top: 15px;
-    position: absolute;
+    gap: 50px;          
     font-size: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
 }
 
 .section-page__name:hover{
@@ -55,4 +64,37 @@
 
 a{
     color: #ffffff;
+}
+
+.references-page{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    top: auto;
+    margin: 10px;
+    height: 10px;
+}
+
+
+@media screen and (max-width:940px ) {
+    .header-david {
+        display: none;
+    }
+    
+    .references-page{
+        display: flex;
+        top: -10px;
+        left: -10px;
+        background: linear-gradient(90deg, rgba(10,10,10,1)  0%, rgba(12,94,224,1) 59%);     
+        height: auto;
+        width: 100%;
+        gap: 15px;
+        flex-wrap: wrap;
+        padding: 15px;
+        align-items: left;
+        text-align: left;
+    }
 }

@@ -3,12 +3,7 @@ import SectionDescription from "../sectionDescription";
 import ExperienceItem from "./experience-item";
 import './experience-styles.css'
 
-import logoCard from    '../../assets/logos/grupoc_card.png'
-import logoIntegraTI from    '../../assets/logos/integrati.png'
- 
- 
 const experiences = [
-    
     {
         "empresa":"Grupo Card",
         "cargo":"Programador Jr",
@@ -29,25 +24,21 @@ const experiences = [
 const Experience = () =>{
     return(
         <section id="experience-section">
-        <SectionDescription   section={"Experiência:"}/>
-        <div id="expSection">
-            
-            <div className="experiences">
-                { experiences && experiences.map((exp)=>(
-                    <ExperienceItem 
-                        empresa={exp.empresa}
-                        cargo={exp.cargo}
-                        descricao={exp.descricao}
-                        srcLogo= {exp.srcLogo}
-                    />
-                ))}
+            <SectionDescription   section={"Experiência:"}/>
+            <div id="expSection">
+                <div className="experiences">
+                    { experiences && experiences.map((exp)=>(
+                        <ExperienceItem key={exp.descricao}
+                            empresa={exp.empresa}
+                            cargo={exp.cargo}
+                            descricao={exp.descricao}
+                            srcLogo= {exp.srcLogo}
+                        />
+                    ))}
+                </div>
             </div>
-        </div>
-       
-        
- 
         </section>
-           )
+    )
 }
 
 export default Experience

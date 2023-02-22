@@ -1,11 +1,10 @@
 import './education-style.css'
-
 import React from 'react'
 import SectionDescription from '../sectionDescription'
 import Education from './education-item'
-
-
 import Legend from './legend'
+
+
 const formation =[
     {
         "course": "Engenharia de Software",
@@ -38,21 +37,19 @@ const formation =[
 const Educations = ()=>{
     return(
         <>
-        <SectionDescription section={"Formação:"}/>              
-        <div className='section-education'>
-            <div className="description-type left">Nome</div>
-            <div className="description-type right">Instituição</div>             
-            {formation.map((exp)=>(
-                <Education 
-                    institution={exp.institution}
-                    course={exp.course}
-                    typeEducation={exp.typeEducation}
-                />
-            ))}
-            
-            <Legend/> 
-            
-        </div>
+            <SectionDescription section={"Formação:"}/>   
+            <section id='section-education'>
+                <div className="description-type left">Nome</div>
+                <div className="description-type right">Instituição</div>             
+                {formation.map((exp)=>(
+                    <Education 
+                        institution={exp.institution}
+                        course={exp.course}
+                        typeEducation={exp.typeEducation}
+                    />
+                ))}
+                <Legend/> 
+            </section>
         </>
         )
 }

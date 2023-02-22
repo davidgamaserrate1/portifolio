@@ -1,4 +1,6 @@
- 
+ .experience-container{
+    margin-left: 100px;
+ }
 .expItem{
     display: flex;
     flex-direction: column;    

@@ -1,3 +1,5 @@
+ 
+ 
 .experience-container{
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +24,8 @@
 
 #expSection{
     margin-top: 80px;     
-    display: flex;     
+    display: flex;   
+    margin-right: 250px;
 }
 
  

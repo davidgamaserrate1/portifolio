@@ -15,8 +15,7 @@ function App() {
   return (
     <>  
       <Header/>
-      <Apresentation/>
-      <div className="vertical-top-down">software engineer</div>                      
+      <Apresentation/>      
       <div className="cointainer">
         <div className='skills-exp'>
           <Experience/>   

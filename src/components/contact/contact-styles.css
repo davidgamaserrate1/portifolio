@@ -3,4 +3,14 @@
     gap: 50px;     
     justify-content: center;
     margin-bottom: 150px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and(max-width:940px){
+    .items{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+    }
 }

@@ -8,8 +8,6 @@ const ContactItem = (props) =>{
             <a  className="contact-image" href={props.link}>  
                 <img className="imgContact"  src = {props.image }/>   
             </a>
-           
-           
             <div className="contact-value">{props.valueContact }</div>   
             <div className="contact-link">
                 <a id="contact-link-text" href={props.link}> Enviar Mensagem </a> 
