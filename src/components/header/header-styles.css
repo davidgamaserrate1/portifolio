@@ -1,6 +1,6 @@
 .header-david{
     display: flex;
-     
+    min-width: 1220px;
 }
 .headerpage{
     font-weight: bold;
@@ -80,21 +80,22 @@ a{
 
 
 @media screen and (max-width:940px ) {
-    .header-david {
-        display: none;
+    
+    
+    .references-page{ display: none;
+        /* height: auto;
+        display: inline;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(10,10,10,1)  0%, rgba(12,94,224,1) 59%);     
+        flex-wrap: wrap; */
     }
     
-    .references-page{
-        display: flex;
-        top: -10px;
-        left: -10px;
-        background: linear-gradient(90deg, rgba(10,10,10,1)  0%, rgba(12,94,224,1) 59%);     
-        height: auto;
-        width: 100%;
-        gap: 15px;
-        flex-wrap: wrap;
-        padding: 15px;
-        align-items: left;
-        text-align: left;
+    .header-david{
+        height: 80px;
+        max-width: 1220px;
     }
+
+    /* .section-tag{
+         
+    } */
 }

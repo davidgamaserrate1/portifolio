@@ -36,21 +36,23 @@ const formation =[
 
 const Educations = ()=>{
     return(
-        <>
-            <SectionDescription section={"Formação:"}/>   
-            <section id='section-education'>
-                <div className="description-type left">Nome</div>
-                <div className="description-type right">Instituição</div>             
-                {formation.map((exp)=>(
-                    <Education 
-                        institution={exp.institution}
-                        course={exp.course}
-                        typeEducation={exp.typeEducation}
-                    />
-                ))}
+        <section id='section-education'>
+            <div className='description-education'>
+                <SectionDescription section={"Formação:"}/>   
+            </div>
+                <div className='educations'>   
+                    <div className="description-type left">Nome</div>
+                    <div className="description-type right">Instituição</div>    
+                    {formation.map((exp)=>(
+                        <Education 
+                            institution={exp.institution}
+                            course={exp.course}
+                            typeEducation={exp.typeEducation}
+                        />
+                    ))}
+                </div>                
                 <Legend/> 
             </section>
-        </>
         )
 }
 

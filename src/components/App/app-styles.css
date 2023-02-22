@@ -24,3 +24,19 @@
 .cointainer{
     padding: 150px;
 }
+
+@media screen and (max-width: 768px ){
+
+    .cointainer{
+        padding: 10px;
+        
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .skills-exp{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

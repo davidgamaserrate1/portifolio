@@ -5,7 +5,6 @@
     color:#ffffff;
     height: 50px; 
     font-weight: bold;
-    
 }
 
  
@@ -15,7 +14,6 @@
     padding: 10px 0 10px 10px;
     font-size: 20px;
     margin-left: 145px;
-    
 }
 
 .div-footer{
@@ -30,24 +28,44 @@
     padding: 10px 0 10px 0; 
     font-size: 20px;
     margin-left: 10px;
-    
 }
 
 .logo-footer{    
-    
     mix-blend-mode: screen;
     justify-content: right;     
-    
     position: absolute;
-    
     width: 50px;
     height: auto;
     left: 100px;
-
-     
-     
-  
-    
 }
 
  
+@media screen and (max-width: 768px ){
+    .footer-div{
+        
+    }
+    .div-footer{
+        position: absolute;
+        left: 180px;
+        font-size: 1px;
+    }
+
+    .logo-footer{
+        position: absolute;
+        left: 10px;
+        font-size: 1px;
+    }
+
+    .footer-name{
+        position: absolute;         
+        left: -75px;
+        font-size: 15px;
+    }
+
+    .header-thanks{
+        position: absolute;         
+        left: 200px;
+        font-size: 15px;
+    }
+
+}

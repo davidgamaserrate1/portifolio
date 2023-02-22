@@ -2,12 +2,9 @@
     justify-content: center;
     display: flex;
     background: linear-gradient(90deg, rgba(12,94,224,1) 0%, rgba(10,10,10,1) 59%);
-    width: auto;
-	height: auto;
-	 
+	height: 100vh;
 	color: #FFF;	
 }
-
 .heder-profile{
     width: 250px;
     height: 250px;     
@@ -42,4 +39,28 @@
     text-align: left;
     font-size: 20px;
     word-spacing: 3px ; 
+}
+
+@media screen and (max-width: 768px ){
+     .header{
+        height: 100vh;
+     }
+    .header-apresentation{
+         position: absolute;
+        font-weight: bold;
+        margin: 50px;
+        margin-top: 140px; 
+        font-size: 2rem;         
+        align-items: center;
+    }
+
+    .header-description{
+        display: flex;
+        font-size: 20px;
+        font-size: 1.1rem;
+        justify-content: center;
+        margin-top: 240px;
+        justify-content: center;
+
+    }
 }

@@ -4,9 +4,9 @@ import SectionDescription from "../sectionDescription";
 import ProjectItem from "./project-item/index";
 
 
-import clientesSrc from '../../assets/projects/clientes.png'
+import clientesSrc from '../../assets/projects/git.png'
 
-console.log('clientes 1  ' + clientesSrc) 
+console.log('clientesSrc 1  ' + clientesSrc) 
 const projects = [
     { 
         "src" :  '/static/media/universe.c5599bebb0af55ed2754.png',

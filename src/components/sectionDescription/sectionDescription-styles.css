@@ -11,10 +11,14 @@
     color: #FFFFFF;     
 }
 
- .skills-text{          
-    display: flex;     
- 
-      
+.skills-text{          
+    display: flex;    
 }
 
  
+@media screen and (max-width: 768px ){
+    .div-skills{
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }  
+}

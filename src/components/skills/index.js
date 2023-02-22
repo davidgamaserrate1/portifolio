@@ -40,23 +40,21 @@ const skillsList = [
         "src":"/static/media/api.9dcdbc3c1f6eb07acfa0.png"
     },
 ]
-         
 
-         console.log('api ' + api)
 const Skills = ()=>{
     return (
        <section id="skills-section">
         <div className="skills-container">
         <SectionDescription  section={"Skills :"}/>      
-            <div className="skill"> 
+            <div className="skill">  
                 {skillsList.map((skill)=>( 
-                <div className="skills-items">
+                <div className="skills-items" key={skill.src}>
                 <div index={ skill.src} className="skill-item">                    
                     <img className="skill-pic" src={skill.src} />                    
                     <div className="skill-button"> 
                         <a className="skill-name" >{skill.name}</a>
                     </div>
-                </div>
+                </div> 
                 </div>
                 ))}
                  

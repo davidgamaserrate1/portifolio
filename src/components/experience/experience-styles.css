@@ -9,6 +9,8 @@
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    align-items: left;
+    justify-content: center;
 }
 
 .experienceUnion{
@@ -21,11 +23,50 @@
     display: flex;
     margin-bottom: 120px;
 }
-
-#expSection{
-    margin-top: 80px;     
-    display: flex;   
-    margin-right: 250px;
+ 
+@media screen and (max-width: 768px ){
+  
+     
+ 
+.experience-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
- 
+.experiences {
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.experienceUnion{
+    display: flex;
+    justify-content: center; 
+}
+
+.sectionExp{
+    margin: 2px;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+#expSection{
+    margin-top: 8px;     
+    display: flex;   
+    margin-right: 25px;
+}
+
+#experience-section{
+    margin-top: -140px;
+    align-items: center;
+}
+
+.desc-experience{
+    margin-top: 135px;
+     
+}
+
+}
+
+

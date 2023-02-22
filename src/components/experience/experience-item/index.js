@@ -4,13 +4,15 @@ const ExperienceItem = (props) =>{
     return(
        <div className='experience-container'>
         <div className='expItem'>
-           <img className='logoEmpresa' src={props.srcLogo} alt="imgEmpresa"/>     
-            <div className='empresa-cargo'>
-                <div className='empresa'>
-                    {props.empresa}:
-                </div>
-                <div className='cargo'>
-                    {props.cargo} 
+            <div className='experience-header'>
+                <img className='logoEmpresa' src={props.srcLogo} alt="imgEmpresa"/>     
+                <div className='empresa-cargo'>
+                    <div className='empresa'>
+                        {props.empresa}:
+                    </div>
+                    <div className='cargo'>
+                        {props.cargo} 
+                    </div>
                 </div>
             </div>
             <div className='descricao'>

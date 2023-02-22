@@ -1,4 +1,9 @@
 
+#section-education{
+    margin: 0 0 150px 0;    
+    max-width: 480px;
+}
+
 .education{
     display: flex;
     width: 250px;
@@ -25,9 +30,32 @@
      
 }
 
-#section-education{     
-    margin-top: 100px;
-    margin-left: -210px; 
- 
+.educations{
+    margin-left: 35px;
+    width: auto;     
+    height: auto;     
+    justify-content: center;
+}
+@media screen and (max-width: 768px ){
+    #section-education{
+        margin: 100px 0 100px 150px;
+    }
+    .educations{
+        margin-left: -55px;
+    }
+    
+    .description-education{
+        position: absolute;
+        margin-top: -65px;
+         margin-left: -20vw;
+    }
+
 }
 
+@media screen and (max-width: 480px ){
+    #section-education{
+        margin-top: 100px;
+        margin-left: 85px;
+    }
+
+}
