@@ -39,8 +39,14 @@ const skillsList = [
         "name" :"Rest API", 
         "src":"/static/media/api.9dcdbc3c1f6eb07acfa0.png"
     },
+    {
+        "name" :"Vue", 
+        "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
+    },
 ]
 
+ 
+          
 const Skills = ()=>{
     return (
        <section id="skills-section">

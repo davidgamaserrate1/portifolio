@@ -3,6 +3,8 @@ import SectionDescription from "../sectionDescription";
 import ExperienceItem from "./experience-item";
 import './experience-styles.css'
 
+import imgss from '../../assets/logos/grupoc_card.png'
+console.log(imgss)
 const experiences = [
     {
         "empresa":"Grupo Card",

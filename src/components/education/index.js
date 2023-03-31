@@ -18,6 +18,11 @@ const formation =[
         "typeEducation":"curso"
     },
     {
+        "course": "Arquitetura CSS",
+        "institution" :"ALURA",
+        "typeEducation":"curso"
+    },
+    {
         "course": "Node JS : Api Rest com Express e MongoDB",
         "institution" :"ALURA",
         "typeEducation":"curso"
@@ -29,6 +34,11 @@ const formation =[
     },
     {
         "course": "JavaScript para WEB",
+        "institution" :"ALURA",
+        "typeEducation":"curso"
+    },    
+    {
+        "course": "Vue3",
         "institution" :"ALURA",
         "typeEducation":"curso"
     },

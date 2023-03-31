@@ -84,23 +84,9 @@ a{
 }
 
 
-@media screen and (max-width:940px ) {
+@media screen and (max-width:940px ) {   
     
-    
-    .references-page{ display: none;
-        /* height: auto;
-        display: inline;
-        border-radius: 10px;
-        background: linear-gradient(90deg, rgba(10,10,10,1)  0%, rgba(12,94,224,1) 59%);     
-        flex-wrap: wrap; */
+    .headerpage{
+        display: none;
     }
-    
-    .header-david{
-        height: 80px;
-        max-width: 1220px;
-    }
-
-    /* .section-tag{
-         
-    } */
 }
