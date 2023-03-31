@@ -14,14 +14,14 @@ const contactsMethods = [
         'name':'Linkedin',
         'image': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg',
         'valueContact': 'david-gama-688639181/',
-        'link' :'https://www.linkedin.com/in/david-gama-688639181/'
+        'link' :'https://www.linkedin.com/in/david-gama-dev/'
     },
     {'name':'Instagram',
-    'image': '/static/media/instagram.ba44525f77b11eb0844b.png',
+    'image': 'https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg',
     'valueContact': '_david.gama',
     'link' :'https://instagram.com/_david.gama?igshid=ZDdkNTZiNTM='
     },
-    {'name':'email',
+    {'name':'E-mail',
       'image': 'https://cdn-icons-png.flaticon.com/512/646/646094.png',
       'valueContact': 'david.gama@ufms.br',
       'link' :'mailto:david.gama@ufms.br?Subject=Portifolio&Body=Ol%E1%2C%20vim%20atrav%E9s%20do%20seu%20portif%F3lio%21'
